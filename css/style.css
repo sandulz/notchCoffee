@@ -9,4 +9,14 @@ html {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  margin-top: -8px;
+}
+.socialMediaIcons {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 140px;
+}
+img {
+  padding: 0 2px;
 }
