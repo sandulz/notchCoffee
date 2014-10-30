@@ -1,3 +1,6 @@
+html, body, .container {
+  height: 100%;
+}
 html { 
   background: url(/img/bgV1.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -11,11 +14,15 @@ html {
   margin-left: auto;
   margin-top: -8px;
 }
+.container {
+  position: relative;
+}
 .socialMediaIcons {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
   width: 140px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -70px;
 }
 img {
   padding: 0 2px;
